@@ -1,0 +1,23 @@
+---
+steps:
+
+- id: 'echo hello-world'
+  name: 'ubuntu'
+  args:
+    - bash
+    - -c
+    - echo "hello-world, here I supossed to build a java app :/"
+
+- id: 'step 2'
+  name: 'ubuntu'
+  args:
+    - bash
+    - -c
+    - echo "This should be the second step"
+
+- id: 'step 3'
+  name: 'ubuntu'
+  args:
+    - bash
+    - -c
+    - echo "And finally this step 3"

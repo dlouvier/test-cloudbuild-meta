@@ -1,0 +1,9 @@
+---
+steps:
+
+- id: 'echo hello-world'
+  name: 'bash'
+  args:
+    - '-c'
+    - |
+      echo "hello-world, here I supossed to build a node app :/"
